@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Times New Roman;
+        padding: 10px;
+        background: #f1f1f1;
+      }
+
+      /* Header/Blog Title */
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: white;
+      }
+
+      .header h1 {
+        font-size: 50px;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 25%;
+      }
+
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 75%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+      }
+
+      /* Fake image */
+      .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
+
+      /* Add a card effect for articles */
+      .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+   <body>
+     
+     <div class="row">
+       <div class="leftcolumn">
+         <div class="topnav" id="navbar">
+           <header></header>
+           
+          <a href="#What Is Coding?" class="nav-link">
+              1. What Is Coding?
+            </a>
+            <a href="#Why Should I Learn To Code??" class="nav-link">
+              2. Why Should I Learn To Code?
+            </a>
+            <a href="#Step By Step Guide To Coding For Dummies?" class="nav-link">
+              3. Step By Step Guide To Coding For Dummies?
+            </a>
+            <a href="#Step 1: Work Out Why You Want To Learn How To Code" class="nav-link">
+              3.1 Step 1: Work Out Why You Want To Learn How To Code
+            </a>
+            <a href="#Step 2: Choose The Right Languages" class="nav-link">
+              3.2 Step 2: Choose The Right Languages
+            <a href="#Step 3: Choose The Right Resources To Help You Learn" class="nav-link">
+              3.3 Step 3: Choose The Right Resources To Help You Learn
+            <a href="#Step 4: Download A Code Editor" class="nav-link">
+              3.4 Step 4: Dowload A Code Editor
+            <a href="#Step 5: Practice Writing Your Programs" class="nav-link">
+              3.5 Step 5: Practice Writing Your Programs
+            <a href="#Step 6: Join An Online Community" class="nav-link">
+              3.6 Step 6: Join An Online Community
+            <a href="#Step 7: Hack Someone Else’s Code" class="nav-link">
+              3.7 Step 7: Hack Someone Else’s Code
+            <a href="#Step 8: Keep Learning" class="nav-link">
+              3.8 Step 8: Keep Learning
+            <a href="#Last tips" class="nav-link">
+              4. Last tips
+            </a>
+          </nav>
+        </div>
+      </div>
+        <div class="rightcolumn">
+          
+          <div class="header">
+            <h1>How To Code For Beginners: All You Need to Know</h1>
+            <h3>Do you want to know how to code for beginners? We'll answer this seemingly complicated question easily!</h3>
+          </div>
+          <main id="main-doc">
+          
+            <div class="card">
+            <section class="main-section" id="What is Code?">
+              <header>What is Coding?</header>
+              <p>To start with, we need to define what coding is. Most programmers would agree that coding is:</p>
+              <p><em>‘The act of writing code that is compiled to form programs, that can be executed by a computer or a code reader, and that has a specific function or set of functions.’.</em></p>
+              <p>Now, this definition is quite broad. In reality, exactly what we mean by coding will depend on what sort of coding we are referring to.</p>
+              <p>For example, a web developer writes code that is used to build responsive, functioning websites. In this sense, coding is creating the best possible website. You can learn more about coding in our previous article.</p>
+              <p>For example, a web developer writes code that is used to build responsive, functioning websites. In this sense, coding is creating the best possible website. You can learn more about coding in our <a href="https://www.bitdegree.org/tutorials/what-is-coding/" target="_blank">previous article</a>.</p>
+              <p>However, someone who works in navigation and aerospace engineering might be required to <strong>write code that lets an airplane run on autopilot during long journeys</strong>. Although this is entirely different from building a website, <em>it is still coding.</em></p>
+              <p>Before you start looking for the answers to <em>“How to code for beginners”,</em> you, therefore, need to think carefully about <strong>what sort of coding you would like to do.</strong></p>
+              <p>This will <strong>dictate the languages that you choose</strong> to learn and how you learn them - but more on that later. For now, let’s move onto a quick look at why you should start learning how to write a code for beginners.</p>
+            </section>
+          </div>
+          <div class="card">
+            <section class="main-section" id="Why Should I Learn To Code?">
+              <header>Why Should I Learn To Code?</header>
+              <p>As noted above, coding is an <strong>exciting new field</strong> that presents a world of opportunities for people who are willing to learn. Despite what you may have heard, learning to code isn’t that hard - especially when you compare it to the skills that are required to get the most skilled jobs.</p>
+              <p>The average person can learn the basics of how to code for beginners fast enough to <strong>be able to start writing their simple programs in a couple of weeks.</strong></p>
+              <p><strong>A few months of hard work</strong> will leave you <strong>fluent</strong> in at least one programming language. Working hard to learn to code for beginners for more than a few months should give you all the skills that you need to become a career coder.</p>
+              <p><strong>Some of the reasons why you should learn how to code include:</strong></p>
+              <p><strong>&#10003; Coding is fun!</strong> Imagine having the skills to be able to build your websites from scratch, to be able to create responsive mobile games, and to be able to program data analysis packages. If you learn how to code, you will be able to do all of this and more in a fun, engaging way!</p>
+              <p><strong>&#10003; Coding will give you valuable skills</strong>. Learning how to code for beginners will provide you with enough skills and experience to pursue a career as a coder or programmer.</p>
+              <p><strong>&#10003; Learning how to code will provide job security</strong>. In the same way, being able to pursue a career as a coder will give you a significant amount of job security. Coders and programmers are in demand throughout the modern world, leading to a lot of jobs in the field.</p>
+              <p>As you can see, there are <strong>plenty of reasons why you should start learning to code right now</strong>. Because of this, we have put together the following step by step guide. Dig in and have fun!</p>
+            </section>
+          </div>
+          <div class="card">
+            <section class="main-section"  id="Step By Step Guide To Coding For Dummies">
+              <header>Step By Step Guide To Coding For Dummies</header>
+              <p>Although coding is <em>relatively easy to learn</em> compared to a lot of other technical skills, it is still something that scares people.</p>
+              <p>At first glance, it <em>may seem complicated, confusing, and very, very hard to master</em>. I mean, how do you go about learning how to code a website if you have no programming experience whatsoever</p>
+              <p>The answer is simple - <strong>you follow our step by step guide to learning how to code for beginners!</strong> By the end of this guide, you should have a clear understanding of the steps that are required if you want to become a programmer, along with the things that you can do to help fast-track your journey.</p>
+            </section>
+          </div>
+          <div class="card">
+            <section class="main-section"  id="Step 1: Work Out Why You Want To Learn How To Code">
+              <header>Step 1: Work Out Why You Want To Learn How To Code</header>
+              <p>Now, the first thing that you need to do - before you even think about enrolling in courses or starting to watch YouTube videos about coding - is to <strong>ask yourself why you want to learn to code.</strong></p>
+              <p>Sit down and think carefully about what you hope to get out of it, <strong>why coding is a skill that you want to learn,</strong> and <strong>how much time and money you have to commit to it.</strong></p>
+              <p><strong>Consider:</strong></p>
+              <p><strong>&#10003; What sort of skills you want to end up with.</strong> Do you want to become a <strong>website developer?</strong> Or perhaps you would prefer to be able to <strong>build mobile apps or work in software engineering?</strong> You will need to think carefully about this because it will largely dictate the languages that you are going to learn.</p>
+              <p><strong>&#10003; Why do you want to learn to code?</strong> Is learning how to code simply something which interests you that you are going to be doing in your spare time? Or is programming something that you would like to pursue a career in further down the track?</p>
+              <p><strong>&#10003; How much time and money you can commit.</strong> If you are only going to have a couple of hours per week to commit to learning how to code, there probably isn’t a whole lot of point enrolling in an intensive course. In the same way, if you want to join an intensive course with support, you will have to be prepared to pay for it.</p>
+              <p><strong>Identify and write down your coding goals</strong> and store them somewhere safe. These will quickly become the basis of your journey from novice to master coder.</p>
+            </section>
+           </div>
+          
+            <div class="card">
+            <section class="main-section" id="Step 2: Choose The Right Languages">
+              <header>Step 2: Choose The Right Languages</header>
+              <p>Different types of programming require different skills. For example, if you want to learn how to code a website, you should learn languages like <a href="https://www.coursera.org/projects/introduction-to-html?ranMID=40328&ranEAID=gsKJn8GIv3Q&ranSiteID=gsKJn8GIv3Q-NYBlJrDoD69Ydtx.eYaE3Q&siteID=gsKJn8GIv3Q-NYBlJrDoD69Ydtx.eYaE3Q&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=gsKJn8GIv3Q" target="_blank">HTML</a>, <a href="https://www.udacity.com/course/intro-to-html-and-css--ud001?irclickid=Q8-1n0QY-xyLT19wUx0Mo3ZwUkBw7F3h3UMsUU0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2391366&utm_term=&utm_campaign=_60c8d064cfe405.40615063_&utm_content=&adid=786224" target="_blank">CSS</a>, <a href="https://www.udacity.com/course/java-developer-nanodegree--nd035?irclickid=Q8-1n0QY-xyLT19wUx0Mo3ZwUkBw7BVB3UMsUU0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2391366&utm_term=&utm_campaign=_60c8ccd5e7a3a5.53958220_&utm_co" target="_blank">Java</a>, and <a href="https://www.edx.org/course/javascript-introduction?source=aw&awc=6798_1623772060_512e40c002bcc32c08c9774bda274a20&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=742045_BitDegree" target="_blank">JavaScript.</a></p>
+              <p>Likewise, <strong>mobile app development</strong> requires <strong>Java</strong> (for Android) or <strong>Swift</strong> (for iOS). Choosing the right language is extremely important, which is why we have outlined some of the most popular among beginners below:</p>
+              <p><strong>Java</strong></p>
+              <p>Java is <strong>arguably the king of programming languages</strong> in the modern world. It is <strong>prevalent, versatile,</strong> and it is used for things like Android app creation and back-end web development.</p>
+              <p>Java is quite <strong>a functional language</strong> for learning how to code for beginners. It is relatively <strong>simple to learn, it reads like English,</strong> and there is a lot of work out there for entry-level Java programmers.</p>
+              <p>If you would like to learn Java as one of your first programming languages, I would recommend Udacity's <a href="https://www.udacity.com/course/java-developer-nanodegree--nd035?irclickid=Q8-1n0QYxyLT19wUx0Mo3ZwUkBw7sXh3UMsUU0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2391366&utm_term=&utm_campaign=_60c8d3e44193c5.31741052_&utm_content=&adid=786224" target="_blank">Java Nanodegree course.</a></p>
+              <p>Alternatively, you can choose BitDegree's interactive <a href="https://www.bitdegree.org/course/java-tutorial" target="_blank">Java tutorial</a>. This course will teach you <strong>the basic syntax and features of the language.</strong> It will show you the potential that you can reach when using Java, and it will also explore the creation of back-end web apps.</p>
+              <p><strong>Python</strong></p>
+              <p>If Java is the king of programming languages, then <strong>Python is the queen.</strong> It is also <strong>super versatile, and it has a lot of different uses.</strong> A lot of academics and researchers use Python to create data analysis programs to help their studies.</p>
+              <p>It is also behind the rise of new technologies like <strong>artificial intelligence and machine learning.</strong> It is <strong>easy to learn,</strong> and it is the most popular language taught in schools. That's why it's perfect for those who are looking for how to code for beginners.</p>
+              <p>Learning Python can be easy if you put your mind to it. Start with a course like the <a href="https://www.edx.org/professional-certificate/introduction-to-python-programming?source=aw&awc=6798_1623778040_19be146ac5000ddd610adafb419969b1&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=742045_BitDegree" target="_blank">Introduction to Python course</a> or the <a href="https://www.bitdegree.org/course/python-tutorial" target="_blank">Interactive Python tutorial</a>. Both of these courses will give you an excellent introduction to the language and its functionality, allowing you to progress to more advanced studies at a later date.</p>
+              <p><strong>Ruby</strong></p>
+              <p>Ruby is a language that is becoming increasingly popular for <strong>full-stack web development.</strong> It allows for the <strong>smooth integration of both front and back-end components</strong> of a new website through the Ruby on Rails framework.</p>
+              <p>If you have plans to become a web developer, I would recommend learning at least <strong>the basics of Ruby.</strong> This way, you will be familiar with the language, even if you don’t have to work with it directly. Start with the <a href="https://www.bitdegree.org/course/learn-ruby-on-rails" target="_blank">Learn Ruby on Rails course</a> which focuses on what Ruby on Rails is and how it is used in web development.</p>
+              <p><strong>Solidity</strong></p>
+              <p>If you are interested in <strong>cryptocurrencies and blockchain development,</strong> then Solidity is one of the best programming languages to learn. Although not well known or widespread by any stretch of the imagination, Solidity is the primary language for <a href="https://en.wikipedia.org/wiki/Smart_contract" target="_blank">smart contract</a> development on the Ethereum blockchain.</p>
+              <p>If you want to enter the exciting new world of blockchains and smart contracts, I would recommend starting with either the <a href="https://www.bitdegree.org/course/learn-solidity-space-doggos" target="_blank">Space Doggos Interactive Solidity course</a> or the <a href="https://www.bitdegree.org/course/learn-solidity-space-doggos" target="_blank">Ultimate Learn Solidity course.</a></p>
+              <p><strong>HTML</strong></p>
+              <p>If you want to get into <strong>front-end web development,</strong> then you have to <strong>learn HTML.</strong> Used for <strong>marking up text</strong> so that computers can understand it, HTML (or Hypertext Markup Language) is one of the <strong>simplest languages</strong> to learn and is where a lot of people start when learning how to code for beginners.</p>
+              <p>HTML is very simple, and the best way to learn it is arguably to first familiarise yourself with the main components of the language through something like the <a href="https://www.coursera.org/projects/introduction-to-html?ranMID=40328&ranEAID=gsKJn8GIv3Q&ranSiteID=gsKJn8GIv3Q-rJ2d0OES55RZTPM3LKaKUw&siteID=gsKJn8GIv3Q-rJ2d0OES55RZTPM3LKaKUw&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=gsKJn8GIv3Q" target="_blank">Introduction to HTML course</a> and then to get out there and <strong>practice</strong> how to write a code for beginners.</p>
+              <p>CSS</p>
+              <p>CSS is used almost <strong>exclusively alongside HTML</strong> to style and format content on webpages. It allows you to do things like <strong>change the color and size of elements, change the position of elements on a webpage, and change the entire layout of a webpage.</strong></p>
+              <p>Like HTML, <strong>CSS is essential</strong> if you plan on becoming a front-end web developer. In my opinion, it’s a good idea to <strong>learn HTML and CSS alongside each other</strong> through something like the <a href="https://www.udacity.com/course/intro-to-html-and-css--ud001?irclickid=Q8-1n0QYxyLT19wUx0Mo3ZwUkBw77QJ3UMsUU0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2391366&utm_term=&utm_campaign=_60c8eec9e02c56.03309004_&utm_content=&adid=786224" target="_blank">HTML and CSS course</a>. This course will teach you the basics of CSS, HTML, web development, and how they all tie together.</p>
+              <p><strong>JavaScript</strong></p>
+              <p>JavaScript is another language that is quite <strong>versatile</strong> and <strong>extremely widespread</strong> - much like Java and Python.</p>
+              <p>Although it has historically <strong>been a front-end</strong> web development language that allowed the creation of interactive elements, JavaScript is becoming increasingly used for other things - including <strong>back-end</strong> web development.</p>
+              <p>If you want to become a decent front-end or back-end web developer, we recommend learning JavaScript. Discover the basics through a course like <a href="https://www.edx.org/course/javascript-introduction?source=aw&awc=6798_1623782289_2fb8d0cc01d46c2a172a8dffe8b52336&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=742045_BitDegree" target="_blank">Introduction to JavaScript course</a> or the <a href="https://www.bitdegree.org/course/javascript-tutorial" target="_blank">Interactive JavaScript Tutorial</a>,and then move onto a <a href="https://www.udacity.com/course/intermediate-javascript-nanodegree--nd032?irclickid=Q8-1n0QYxyLT19wUx0Mo3ZwUkBw411V3UMsUU0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2391366&utm_term=&utm_campaign=_60c8f8538ada98.56839106_&utm_content=&adid=786224" target="_blank">more challenging course</a> when you are comfortable with the basics of the language.</p>
+            </section>
+            </div>
+              
+                <div class="card">
+                <section class="main-section" id="Step 3: Choose The Right Resources To Help You Learn">
+                <header>Step 3: Choose The Right Resources To Help You Learn</header>
+                <p>Now that we’ve looked at some of the most popular languages to help you discover how to code for beginners, it’s time to look at the <strong>best ways to learn them.</strong></p>
+                <p><strong>Some of these include:</strong></p>
+                <p><strong>Online coding courses:</strong> <a href="https://www.edx.org/?source=aw&awc=6798_1623783830_ce6abf8e777386713523b4bc7e49a94a&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=742045_BitDegree" target="_blank">Online coding courses</a> are <strong>one of the best ways to get a feel for a new programming language.</strong></p>
+                <p>When done right, they will teach you some of the <strong>essential syntaxes of a language and how it is used.</strong> They are usually taught in a fun, engaging manner, and many of them allow you to write code directly in your browser as you learn.</p>
+                <p>Bonus: You can get most of these courses for free or at very low prices, especially if you take advantage of the <a href="https://www.bitdegree.org/online-learning-deals/udemy-coupon-code" target="_blank">coupon code</a> offered on the BitDegree website. You can also get the <a href="https://www.bitdegree.org/free-certifications-online" target="_blank">courses with free certifications</a>.</p>
+                <p>By the way, if it so happens that you find a course but you currently can't afford it, be sure to apply for <a href="https://www.bitdegree.org/scholarships" target="_blank">scholarships for online courses</a>. The whole process for applying is described <a href="https://www.bitdegree.org/guides/small-scholarships" target="_blank">here</a>.</p>
+                <p><strong>Textbooks:</strong> Code reference books are a great resource that <strong>every single beginner should make use of.</strong> They contain all of the syntax and conventions of a language, allowing you to look things up when you’re confused or unsure about how to proceed with your code.</p>
+                <p><strong>YouTube videos:</strong> Online videos and video tutorials are great resources that can <strong>help you get your head around complex concepts.</strong> You should use them alongside an online course or another method of learning how to code for beginners.</p>
+                  </section>
+                </div>
+                
+                  <div class="card">
+                  <section class="main-section" id="Step 4: Download A Code Editor">
+                  <header>Step 4: Download A Code Editor</header>
+                  <p>Although a lot of online courses let you write code in a code editor directly in your browser, you need to realize that this isn’t how it works in the real world. Once you graduate from your online course, you will need to <strong>start writing your code directly into a code editor,</strong> so it’s a good idea to start practicing doing this now.</p>
+                  <p>Most programming languages have their code editors that you can download. They usually come complete with interactive development environments (IDEs) that will <strong>help you build clear, error-free code.</strong> Simple languages like HTML and CSS can be written straight into a simple text document if you find that easier.</p>
+                </section>
+               </div>
+                  
+                  <div class="card">
+                  <section class="main-section" id="Step 5: Practice Writing Your Programs">
+                  <header>Step 5: Practice Writing Your Programs</header>
+                    <p>Once you have a basic working knowledge of your chosen language, you will need to <strong>start creating your programs and projects.</strong> Although you might feel that this is a long way away right now, you will be surprised how fast you progress once you start learning.</p>
+                    <p>The type of program or project you start building will <strong>depend on the language you learn.</strong> For example, if you are learning how to code a website using HTML/CSS, you might choose to start building your website.</p>
+                    <p>You can even begin with <a href="https://www.mybestwebsitebuilder.com/" target="_blank">drag & drop website builders</a> to make the learning process easier. However, a knowledge of Java will allow you to begin programming your Android app or game.</p>
+                    <p>Remember, practice makes perfect, and practice is the key to becoming a successful programmer. <strong>Practice, practice, and more practice!</strong></p>
+            </section>
+          </div>
+          
+            <div class="card">
+              <section class="main-section" id="Step 6: Join An Online Community">
+              <header>Step 6: Join An Online Community</header>
+              <p>Navigating the intricacies of learning how to code for beginners on their own <strong>can be extremely difficult.</strong> There will be times when <strong>you need support.</strong></p>
+              <p>For example, let’s say that you’re learning a language, and <em>you’ve come across a piece of syntax that you can’t get your head around.</em> Joining an online chat board or coding forum <strong>will give you access to people who will be able to answer your questions</strong> and help you get past any problems you’re having.</p>
+              </section>
+            </div>
+            
+            <div class="card">
+              <section class="main-section" id="Step 7: Hack Someone Else’s Code">
+              <header>Step 7: Hack Someone Else’s Code</header>
+                <p>Once you have a pretty good idea of how to code in a particular language, it’s time to <em>delve deeper</em>. One of the best ways to keep learning and to reinforce your knowledge of a programming language is to <strong>unpack someone else’s code.</strong></p>
+                <p><strong>Find a program or code file</strong> somewhere - GitHub is a great place to start - and <strong>open it in your code editor.</strong></p>
+                <p><strong>Work through the code</strong> and make sure that you understand every line and what its function is. Add comments if you need to. If you see something which you think could be done in a more efficient way or which you think you can improve, change it.</p>
+                <p>Once you have finished, <strong>save your edited code</strong> and <strong>re-upload</strong> it so that other people can critique your effort.</p>
+              </section>
+            </div>
+            
+            <div class="card">
+              <section class="main-section" id="Step 8: Keep Learning">
+              <header>Step 7: Hack Someone Else’s Code</header>
+                <p>In a way, programming languages are <em>like any other language</em>. They require <strong>regular practice</strong> if you want to become fluent in them, and you will forget things if you don’t practice using them. It is, therefore essential to make sure that you keep learning new things every day.</p>
+                <p>Don’t fall into the habit of using the same coding patterns and syntax for everything. Instead, <strong>keep striving to learn new ways to do things and to improve your method.</strong></p>
+                <p>I try and make a habit of <strong>learning one thing every single day</strong>. This could be a new piece of syntax, a new way to write a line of code, or simply a better way of debugging a program.</p>
+              </section>
+            </div>
+            
+            <div class="card">
+              <section class="main-section" id="Last tips">
+                <header>Last tips</header>
+                <p>Learning how to code for beginners can be <strong>fun, exciting, and super satisfying</strong>. When done right, learning how to code can provide you with valuable skills that you will be able to draw on for the rest of your life. However, learning how to code <strong>can also be challenging</strong>.</p>
+                <p>With this in mind, we developed the above step-by-step guide for beginners. It contains everything that you need to know to get you started on your coding journey.</p>
+                <p><strong>To recap, if you want to start learning how to code, you should:</strong></p>
+                <p>&#10003; Work out <strong>why you want to start learning and what you hope to achieve</strong>.</p>
+                <p>&#10003; <a href="https://www.edx.org/?source=aw&awc=6798_1623790264_75fbc7e05a6e3a0e8278d2a07c37058f&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=742045_BitDegree" target="_blank">Choose an online course</a> and start learning these languages.</p>
+                <p>&#10003; <strong>Download the right code editors</strong></p>
+                <p>&#10003; <strong>Practice, practice, and practice some more!</strong></p>
+                <p>&#10003; <strong>Join an online community</strong></p>
+                <p>&#10003; <strong>Hack someone else's code</strong></p>
+                <p>&#10003; <strong>Never stop learning!</strong></p>
+                <p>So there you have it - a simple 8 step guide to learning how to code for beginners. Now you have no excuses. <strong>Stop procrastinating, stop putting it off, and get out there and</strong> <a href="https://www.edx.org/?source=aw&awc=6798_1623791460_9ab622f7475000a360a7003255e5d35e&utm_source=aw&utm_medium=affiliate_partner&utm_content=text-link&utm_term=742045_BitDegree" target="_blank">start learning how to code</a></p>
+              </section>
+            </div>
+           
+          </div>
+        </main>
+      </div>
+    </div>
+     
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+   </body>
+  </html>
+  
